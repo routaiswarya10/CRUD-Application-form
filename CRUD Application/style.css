@@ -1,0 +1,50 @@
+body{  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    background-color: pink;  
+  }  
+  .container {  
+      padding: 2px;  
+    background-color: lightblue;  
+  }  
+    
+  input[type=text], input[type=number] {
+    width: 80%;  
+    padding: 15px;  
+    margin: 3px 0 10px 0;  
+    display: inline-block;  
+    background: #f1f1f1;  
+  } 
+
+  input[type=submit]{
+    width: 60%;
+    background-color: #ddd;
+    color:#000;
+    padding:20px 20px;
+    margin:10px 0;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+  }
+  
+  table{
+    width: 80%;
+    margin: 40px auto;
+    border:1px solid #000;
+    margin:0 auto;
+    background: #f1f1f1;
+  }
+
+ form div.form-action-bittons{
+  text-align:center;
+ }
+form{
+  padding:10px;
+  border:1p solid #000;
+  width:50%;
+  margin:10px auto;
+}
+
+
+
+
+  

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form autocomplete="off" onsubmit="myFunction(event)">
+            <div class="container">
+             <center>
+                <h1>CRUD Application Form</h1>
+                </center>
+                </div>
+                <br>
+                    <label>Enter First Name:</label>
+                    <input type="text"name="Fname" placeholder="Enter first name"id="sample_id"/>
+            </br>
+                    <label>Enter Last Name:</label>
+                    <input type="text"name="Lname" placeholder="Enter last name"id="sample_id"/>
+            <br>
+                    <label>Gender:</label>
+                    <input type="radio"name="Gender" placeholder="Female"id="sample_id"/>
+                    Female
+                    <input type="radio"name="Gender" placeholder="Male"id="sample_id"/>
+                    Male
+        </br>
+        <br>
+                    <td>Course:</td>
+                    <td><select name="Course">
+                        <option value="-1" selected>select</option>
+                        <option value="MCA">MCA(Master of Computer Application)</option>
+                        <option value="BCA">BCA(Bachelor of Computer Application)</option>
+                        <option value="BA">BA(Bachelor in Art)</option>
+                        <option value="BBA">BBA(Bachelor of Business Administration)</option>
+                        <option value="BHM">BHM(Bachelor Hospital Management)</option>
+                    </select>
+                    </td>
+                <div class="form_action--button">
+                    <center>
+                        <br>
+                        <button type="Submit"class="Submitbtn">Submit</button> 
+                        <button type="Reset"class="Resetbtn">Reset</button>
+                    </br>
+                    </center>       
+                </div>    
+                </form>  
+                
+                    <div class="col-10 mt-5">
+                    <table id="studentList">
+                        <thead>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Gender</th>
+                                <th>Course</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                
+                            </tr>
+
+                        </tbody>
+                    </table>
+                 
+                <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
